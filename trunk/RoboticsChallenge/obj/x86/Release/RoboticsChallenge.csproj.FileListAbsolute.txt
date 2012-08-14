@@ -1,0 +1,13 @@
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\obj\x86\Release\RoboticsChallenge.g.resources
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\obj\x86\Release\RoboticsChallenge.Form1.resources
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\obj\x86\Release\RoboticsChallenge.Form2.resources
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\obj\x86\Release\RoboticsChallenge.Properties.Resources.resources
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\bin\Release\config.txt
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\bin\Release\RoboticsChallenge.exe
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\bin\Release\RoboticsChallenge.pdb
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\bin\Release\InTheHand.Net.Personal.dll
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\obj\x86\Release\RoboticsChallenge.exe
+C:\Users\Joel\Desktop\RoboticsChallenge\RoboticsChallenge\obj\x86\Release\RoboticsChallenge.pdb
