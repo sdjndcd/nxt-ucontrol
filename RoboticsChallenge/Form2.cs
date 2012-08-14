@@ -198,14 +198,18 @@ namespace RoboticsChallenge
 
         }
 
-        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
-        {
-            //txtFilename.Text = "";
-        }
+       
 
         private void btnLoadConfig_Click(object sender, EventArgs e)
         {
-            openFileDialog1.InitialDirectory = ".";
+            openFileDialog1.Reset();
+
+            openFileDialog1.Multiselect = false;
+            openFileDialog1.Filter = @"Text Files |*.txt";
+            //openFileDialog1.InitialDirectory = ".";
+            openFileDialog1.InitialDirectory = System.IO.Path.GetDirectoryName(Application.ExecutablePath);
+
+
             DialogResult result = openFileDialog1.ShowDialog();
             if (result == DialogResult.OK) // Test result.
             {
@@ -214,12 +218,9 @@ namespace RoboticsChallenge
                 filename = System.IO.Path.GetFileName(filename);
                 txtFilename.Text = filename;
 
-
-
                 Variables.config.readconfig(openFileDialog1.FileName);
 
                 LoadListboxCommands();
-                
             }
         }
 
@@ -238,7 +239,8 @@ namespace RoboticsChallenge
         {
             String savedFile = "";
 
-            saveFileDialog1.InitialDirectory = ".";
+            saveFileDialog1.Reset();
+            saveFileDialog1.InitialDirectory = System.IO.Path.GetDirectoryName(Application.ExecutablePath);
             saveFileDialog1.Title = "Save Configuration File";
             saveFileDialog1.FileName = this.txtFilename.Text;
 
