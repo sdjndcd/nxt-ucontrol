@@ -1,0 +1,1 @@
+This simple program allows you to connect to any Lego Mindstorm 2.0 NXT through bluetooth and control the 3 motors.  It allows you to create different key configurations for the different lego builds you create.
